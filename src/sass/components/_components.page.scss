@@ -1,0 +1,19 @@
+.c-page {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+  position: relative;
+}
+
+.c-page--home {
+  overflow-y: auto;
+  width: 100%;
+}
+
+.c-page--preloader {
+  align-items: center;
+  justify-content: center;
+}
+.c-page--preloader {
+  background-color: $brand-secondary;
+}

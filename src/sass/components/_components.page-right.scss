@@ -1,0 +1,11 @@
+.c-page-right {
+  flex: 1 1 auto;
+  height: 100%;
+  position: relative;
+}
+
+@media screen and (min-width: 64em) {
+  .c-page-right {
+    overflow-y: scroll;
+  }
+}

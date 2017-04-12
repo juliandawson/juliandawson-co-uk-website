@@ -1,0 +1,8 @@
+<h2 class="o-headline" id="jobs-headline">Work History</h2>
+<ul class="c-list-ui o-list-bare">
+  <li aria-labelledby="job-role" class="c-list-ui__item" *ngFor="let job of jobs | sortJobs">
+    <h3 id="job-role">{{job.role}}</h3>
+    <p *ngIf="job.end_date; else elseJobDates">{{job.start_date | date:"MMM y"}} <span aria-label="to">-</span> {{job.end_date | date:"MMM y"}}</p>
+    <ng-template #elseJobDates>{{job.start_date | date:"MMM y"}} - Present</ng-template>
+  </li>
+</ul>

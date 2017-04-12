@@ -1,0 +1,29 @@
+/*------------------------------*\
+  # Widths
+\*------------------------------*/
+
+@media (min-width: 64em) {
+  .u-flex-1\/2 {
+    flex-basis: 50%;
+  }
+
+  .u-flex-2\/2 {
+    flex-basis: 100%;
+  }
+
+  .u-flex-1\/4 {
+    flex-basis: 25%;
+  }
+
+  .u-flex-2\/4 {
+    flex-basis: 50%;
+  }
+
+  .u-flex-3\/4 {
+    flex-basis: 75%;
+  }
+
+  .u-flex-4\/4 {
+    flex-basis: 100%;
+  }
+}

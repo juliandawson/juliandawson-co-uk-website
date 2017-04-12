@@ -1,0 +1,20 @@
+.c-band {
+  display: block;
+  padding: 10%;
+  position: relative;
+}
+
+@media screen and (min-width: 64em) {
+  .c-band {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+.c-band--tint {
+  background-color: $brand-tint;
+}
+
+.c-band--highlight {
+  background-color: $brand-highlight;
+}

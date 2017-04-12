@@ -1,0 +1,41 @@
+.c-page-left {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: column nowrap;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.c-page-left {
+  background-color: $brand-primary;
+  background-image: url("../images/bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+}
+
+@media screen and (min-width: 64em) {
+  .c-page-left {
+    background-image: url("../images/bg-large.png");
+  }
+}
+
+  .c-page-left__text {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .c-page-left__text {
+    color: $brand-highlight;
+  }
+
+  .c-page-left__social {
+    bottom: 10%;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    position: absolute;
+    text-align: center;
+  }

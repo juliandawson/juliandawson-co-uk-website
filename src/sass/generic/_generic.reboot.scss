@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+// TODO: clean up for more specific clears
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, form, fieldset, legend,
+figure,
+table, th, td, caption,
+hr {
+  margin:  0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+html {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: $font-weight-base;
+  line-height: $line-height-base;
+}
+
+body {
+  background-color: $body-bg;
+  color: $body-color;
+}
+
+a {
+  color: $link-color;
+  text-decoration: $link-decoration;
+}
+a:hover {
+  color: $link-hover-color;
+  text-decoration: $link-hover-decoration;
+}

@@ -1,0 +1,29 @@
+.c-social { }
+
+  .c-social__link {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .c-social__icon {
+    fill: $brand-secondary;
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+
+.c-social--large { }
+
+  .c-social--large .c-social__link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .c-social--large .c-social__icon {
+    fill: $white;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .c-social--large .c-social__icon:hover {
+    opacity: .5;
+  }

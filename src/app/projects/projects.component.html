@@ -1,0 +1,20 @@
+<h2 class="o-headline" id="projects-headline">Projects</h2>
+<ul class="c-project__content c-list-ui o-list-bare">
+  <li class="c-list-ui__item" *ngFor="let project of projects">
+    <div class="[ o-layout-flex o-layout-flex--space-between ]">
+      <a class="[ o-layout-flex__item o-layout-flex__item--fixed ]" href="{{project.url}}">
+        <h3>{{project.name}}</h3>
+      </a>
+      <ul class="o-list-inline [ o-layout-flex__item o-layout-flex__item--fixed ]">
+        <li class="o-list-inline__item" *ngFor="let social of project.social">
+          <a class="c-social__link" href="{{social.url}}" target="_blank">
+            <svg class="c-social__icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" attr.xlink:href="{{social.icon}}"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p>{{project.description}}</p>
+  </li>
+</ul>

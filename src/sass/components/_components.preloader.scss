@@ -1,0 +1,38 @@
+.c-preloader {
+  background-color: $brand-highlight;
+  border-radius: 50%;
+  position: relative;
+  height: 1rem;
+  width: 1rem;
+
+  &:before,
+  &:after {
+    border-radius: 50%;
+    content: "";
+    height: 0.5rem;
+    position: absolute;
+    width: 0.5rem;
+  }
+
+  &:before {
+    animation: orbit 2s linear infinite;
+    background-color: $brand-primary;
+    left: -2.5rem;
+    top: -1.5rem;
+    transform-origin: 3rem 2rem;
+  }
+
+  &:after {
+    animation: orbit 1s linear infinite;
+    background-color: $white;
+    left: -1rem;
+    top: -0.5rem;
+    transform-origin: 1.5rem 1rem;
+  }
+}
+
+@keyframes orbit {
+  100% {
+    transform: rotate(360deg);
+  }
+}

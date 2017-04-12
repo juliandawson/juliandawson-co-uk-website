@@ -1,0 +1,20 @@
+# compiled output
+/src/css/*.css
+/src/js/*.js
+/src/js/*.map
+/tmp
+
+# dependencies
+/node_modules
+
+# misc
+/.sass-cache
+npm-debug.log
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db

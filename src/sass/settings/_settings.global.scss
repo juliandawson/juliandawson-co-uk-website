@@ -1,0 +1,49 @@
+// Start with assigning color names to specific hex values
+$black:   #000 !default;
+$blue:    #002e5b !default;
+$indigo:  #3f51b5 !default;
+$red:     #ff0024 !default;
+$yellow:  #ffeb3b !default;
+$white:   #fff !default;
+
+$tint:    rgba(0, 0, 0, .04) !default;
+
+// Reassign color vars to semantic color scheme
+$brand-primary:     $blue !default;
+$brand-secondary:   $indigo !default;
+$brand-highlight:   $yellow !default;
+$brand-tint:        $tint !default;
+
+// Body
+$body-bg:       $white !default;
+$body-color:    $black !default;
+
+// Spacin
+$spacer: 1rem !default;
+
+// Links
+$link-color:            $brand-secondary !default;
+$link-decoration:       underline !default;
+$link-hover-color:      $link-color !default;
+$link-hover-decoration: none !default;
+
+// Fonts
+$font-family-sans-serif: 'Source Sans Pro', sans-serif !default;
+$font-family-base:       $font-family-sans-serif !default;
+
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+
+$font-weight-normal:  400 !default;
+$font-weight-medium:  600 !default;
+$font-weight-bold:    700 !default;
+$font-weight-black:   900 !default;
+
+$font-weight-base: $font-weight-normal !default;
+$line-height-base: 1.25 !default;
+
+$font-size-h1: 2.5rem !default;
+$font-size-h2: 2rem !default;
+$font-size-h3: 1.25rem !default;
+
+$headings-margin-bottom: $spacer !default;
+$headings-font-weight:   $font-weight-medium !default;
