@@ -1,17 +1,24 @@
+/*------------------------------------*\
+ # LAYOUT-FLEX
+\*------------------------------------*/
+
 .o-layout-flex {
   display: flex;
   flex-flow: row wrap;
+
+  > .o-layout-flex__item {
+    flex: 1 1 auto;
+  }
 }
 
 .o-layout-flex--space-between {
   justify-content: space-between;
+
+  > .o-layout-flex__item {
+    flex: 0 0 auto;
+  }
 }
 
-  .o-layout-flex__item {
-    flex: 1 1 auto;
-  }
-
-  .o-layout-flex__item--fixed {
-    flex-grow: 0;
-    flex-shrink: 0;
-  }
+.o-layout-flex--center {
+  align-items: center;
+}

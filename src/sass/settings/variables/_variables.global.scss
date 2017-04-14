@@ -1,24 +1,8 @@
-// Start with assigning color names to specific hex values
-$black:   #000 !default;
-$blue:    #002e5b !default;
-$indigo:  #3f51b5 !default;
-$red:     #ff0024 !default;
-$yellow:  #ffeb3b !default;
-$white:   #fff !default;
+/*------------------------------------*\
+ # GLOBAL
+\*------------------------------------*/
 
-$tint:    rgba(0, 0, 0, .04) !default;
-
-// Reassign color vars to semantic color scheme
-$brand-primary:     $blue !default;
-$brand-secondary:   $indigo !default;
-$brand-highlight:   $yellow !default;
-$brand-tint:        $tint !default;
-
-// Body
-$body-bg:       $white !default;
-$body-color:    $black !default;
-
-// Spacin
+// Spacing
 $spacer: 1rem !default;
 
 // Links

@@ -1,27 +1,72 @@
 /*------------------------------------*\
-    $IMPORTS
+ # MAIN
 \*------------------------------------*/
-// 1 Settings
-@import "settings/settings.global";
 
-// 2 Tools
+/**
+ # CONTENTS
+ *
+ * SETTINGS
+ * config ............ Configuration and environment settings.
+ * variables ......... Barrel for app settings/config. Please see
+ *                     `settings/_variables.scss` for a full table of contents.
+ *
+ * TOOLS
+ * functions ......... Lorem ipsum.
+ * mixins ............ Barrel for mixins. Please see `tools/_tools.mixins.scss`
+ *                     for a full table of contents.
+ *
+ * GENERIC
+ * normalize ......... Lorem ipsum.
+ * reboot ............ Lorem ipsum.
+ *
+ * ELEMENTS
+ * headings .......... Lorem ipsum.
+ *
+ * OBJECTS
+ * layout-flex ....... Lorem ipsum.
+ * headline .......... Lorem ipsum.
+ * list-bare ......... Lorem ipsum.
+ * list-inline ....... Lorem ipsum.
+ *
+ * COMPONENTS
+ * app ............... Lorem ipsum.
+ * preloader ......... Lorem ipsum.
+ * page .............. Lorem ipsum.
+ * page-left ......... Lorem ipsum.
+ * page-right ........ Lorem ipsum.
+ * page-foot ......... Lorem ipsum.
+ * band .............. Lorem ipsum.
+ * text-ui ........... Lorem ipsum.
+ * list-ui ........... Lorem ipsum.
+ * social ............ Lorem ipsum.
+ * heart ............. Lorem ipsum.
+ *
+ * UTILITIES
+ * widths-flex ....... Lorem ipsum.
+ */
+
+// settings
+@import "settings/config";
+@import "settings/variables";
+
+// tools
 @import "tools/tools.functions";
 @import "tools/tools.mixins";
 
-// 3 Generic
+// generic
 @import "generic/generic.normalize";
 @import "generic/generic.reboot";
 
-// 4 Base
+// elements
 @import "elements/elements.headings";
 
-// 5 Objects
+// objects
 @import "objects/objects.layout-flex";
 @import "objects/objects.headline";
 @import "objects/objects.list-bare";
 @import "objects/objects.list-inline";
 
-// 6 Components
+// components
 @import "components/components.app";
 @import "components/components.preloader";
 @import "components/components.page";
@@ -33,6 +78,5 @@
 @import "components/components.social";
 @import "components/components.heart";
 
-// 7 Utilities
+// utilities
 @import "utilities/utilities.widths-flex";
-
