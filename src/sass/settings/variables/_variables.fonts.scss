@@ -1,0 +1,28 @@
+/*------------------------------------*\
+ # FONTS
+\*------------------------------------*/
+
+// font weight
+$font-weight-normal:      400 !default;
+$font-weight-medium:      600 !default;
+$font-weight-bold:        700 !default;
+$font-weight-black:       900 !default;
+
+// font base
+$font-base-family:        'Source Sans Pro', sans-serif !default;
+$font-base-line-height:   1.25 !default;
+$font-base-size:          1rem !default; // Assumes browser default `16px`
+$font-base-weight:        $font-weight-normal !default;
+
+// font headings
+$font-h1-size:            2.5rem !default;
+$font-h1-margin-bottom:   $spacer !default;
+$font-h1-weight:          $font-weight-medium !default;
+
+$font-h2-size:            2rem !default;
+$font-h2-margin-bottom:   $spacer !default;
+$font-h2-weight:          $font-weight-medium !default;
+
+$font-h3-size:            1.25rem !default;
+$font-h3-margin-bottom:   $spacer !default;
+$font-h3-weight:          $font-weight-medium !default;

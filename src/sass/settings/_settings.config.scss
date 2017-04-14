@@ -9,7 +9,3 @@ $config: (
   healthcheck: false,
   debug: false,
 );
-
-@function config($key) {
-  @return map-get($config, $key);
-}

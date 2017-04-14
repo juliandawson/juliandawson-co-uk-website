@@ -6,8 +6,14 @@
  # CONTENTS
  *
  * colors ............ Color palette.
+ * spacing ........... Control the default styling of most elements.
+ * fonts ............. Font, line-height, and color for body text and more.
+ * headings .......... Headings.
  * global ............ Globally available settings/config.
  */
 
 @import "variables/variables.colors";
+@import "variables/variables.spacing";
+@import "variables/variables.fonts";
+@import "variables/variables.headings";
 @import "variables/variables.global";

@@ -12,12 +12,12 @@
   position: relative;
 }
 .c-page-left {
-  background-color: $brand-primary;
+  background-color: $color-brand-primary;
   background-image: url("../images/bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: $white;
+  color: $color-white;
 }
 
 @media screen and (min-width: 64em) {
@@ -31,7 +31,7 @@
     font-weight: 600;
   }
   .c-page-left__text {
-    color: $brand-highlight;
+    color: $color-brand-primary-inverse;
   }
 
   .c-page-left__social {

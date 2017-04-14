@@ -2,22 +2,24 @@
  # COLORS
 \*------------------------------------*/
 
-// Start with assigning color names to specific hex values
-$black:   #000 !default;
-$blue:    #002e5b !default;
-$indigo:  #3f51b5 !default;
-$red:     #ff0024 !default;
-$yellow:  #ffeb3b !default;
-$white:   #fff !default;
+// base colors
+$color-black:               #000 !default;
+$color-blue:                #002e5b !default;
+$color-indigo:              #3f51b5 !default;
+$color-red:                 #ff0024 !default;
+$color-yellow:              #ffeb3b !default;
+$color-white:               #fff !default;
 
-$tint:    rgba(0, 0, 0, .04) !default;
+// semantic colors
+$color-brand-primary:         $color-blue !default;
+$color-brand-primary-inverse: $color-yellow !default;
 
-// Reassign color vars to semantic color scheme
-$brand-primary:     $blue !default;
-$brand-secondary:   $indigo !default;
-$brand-highlight:   $yellow !default;
-$brand-tint:        $tint !default;
+$color-brand-secondary:       $color-indigo !default;
 
-// Body
-$body-bg:       $white !default;
-$body-color:    $black !default;
+// links
+$color-links:                 $color-indigo !default;
+$color-links-hover:           $color-links !default;
+
+// body
+$color-body:                  $color-black !default;
+$color-body-background:       $color-white !default;

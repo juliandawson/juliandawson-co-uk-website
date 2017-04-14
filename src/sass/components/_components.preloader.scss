@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .c-preloader {
-  background-color: $brand-highlight;
+  background-color: $color-brand-primary-inverse;
   border-radius: 50%;
   position: relative;
   height: 1rem;
@@ -20,7 +20,7 @@
 
   &:before {
     animation: orbit 2s linear infinite;
-    background-color: $brand-primary;
+    background-color: $color-brand-primary;
     left: -2.5rem;
     top: -1.5rem;
     transform-origin: 3rem 2rem;
@@ -28,7 +28,7 @@
 
   &:after {
     animation: orbit 1s linear infinite;
-    background-color: $white;
+    background-color: $color-white;
     left: -1rem;
     top: -0.5rem;
     transform-origin: 1.5rem 1rem;

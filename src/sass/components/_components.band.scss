@@ -15,10 +15,10 @@
   }
 }
 
-.c-band--tint {
-  background-color: $brand-tint;
+.c-band--inverse {
+  background-color: $color-brand-primary-inverse;
 }
 
-.c-band--highlight {
-  background-color: $brand-highlight;
+.c-band--tint {
+  background-color: rgba(0, 0, 0, .04);
 }

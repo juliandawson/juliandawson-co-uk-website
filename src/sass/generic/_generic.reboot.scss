@@ -31,22 +31,22 @@ img {
 }
 
 html {
-  font-family: $font-family-base;
-  font-size: $font-size-base;
-  font-weight: $font-weight-base;
-  line-height: $line-height-base;
+  font-family: $font-base-family;
+  font-size: $font-base-size;
+  font-weight: $font-base-weight;
+  line-height: $font-base-line-height;
 }
 
 body {
-  background-color: $body-bg;
-  color: $body-color;
+  background-color: $color-body-background;
+  color: $color-body;
 }
 
 a {
-  color: $link-color;
-  text-decoration: $link-decoration;
+  color: $color-links;
+  text-decoration: underline;
 }
 a:hover {
-  color: $link-hover-color;
-  text-decoration: $link-hover-decoration;
+  color: $color-links-hover;
+  text-decoration: none;
 }
