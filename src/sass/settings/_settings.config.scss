@@ -9,3 +9,12 @@ $config: (
   healthcheck: false,
   debug: false,
 );
+
+// mq breakpoints
+// https://github.com/sass-mq/sass-mq
+
+$mq-breakpoints: (
+  small:  720px,
+  medium: 1024px,
+  large:  1200px,
+) !default;
